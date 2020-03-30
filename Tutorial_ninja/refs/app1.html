@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>VueJs Tutorial</title>
+	<link rel="stylesheet" href="app1.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="vue-app">
+		<h2 style="color: blue">Refs</h2>
+		<input type="text" ref="sagyn">
+		<button v-on:click="readRefs">Submit</button>
+		<p>Your fav food: {{output}}</p>
+		<div ref="test">Hello</div>
+	</div>
+	<script src="app1.js"></script>
+</body>
+</html>

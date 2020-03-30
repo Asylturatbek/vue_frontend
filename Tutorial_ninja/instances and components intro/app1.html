@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>VueJs Tutorial</title>
+	<link rel="stylesheet" href="app1.css">
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+	<div id="vue-app-one">
+		<h2 style="color: blue">{{title}}</h2>
+		<p>{{greet}}</p>
+		<greeting></greeting>
+	</div>
+	<div id="vue-app-two">
+		<h2 style="color: red">{{title}}</h2>
+		<p>{{greet}}</p>
+		<button v-on:click="changeTitle">Chat app one title</button>
+		<greeting></greeting>
+	</div>
+
+	<script src="app1.js"></script>
+</body>
+</html>
