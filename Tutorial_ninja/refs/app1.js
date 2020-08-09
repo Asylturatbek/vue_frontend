@@ -13,7 +13,7 @@ new Vue({
 	},
 	computed: {
 		greet: function(){
-			return 'Hello from app one'
+			return `Hello from app one ${this.data.output}`
 		}
 	}
 });
